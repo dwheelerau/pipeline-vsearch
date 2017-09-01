@@ -17,9 +17,9 @@ MHApr14_S30_L001_R2_001.fastq.gz
 MHApr14_S30_L001_R2_001.fastq.gz  
 MHApr15_S30_L001_R2_001.fastq.gz  
 MHApr15_S30_L001_R2_001.fastq.gz  
-kjj
-These are NOT compatible:  
-- MHApr13 is not uq, use MHApr13S30 as sample name by removing _  
+
+These are NOT compatible because MHApr13 is not uq, use MHApr13S30 as
+ sample name by removing _.  
 MHApr13_S30_L001_R1_001.fastq.gz   
 MHApr13_S30_L001_R1_001.fastq.gz   
 MHApr13_S31_L001_R2_001.fastq.gz   

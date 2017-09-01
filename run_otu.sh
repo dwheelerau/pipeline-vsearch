@@ -34,8 +34,6 @@ CLUSTERMODE="--cluster_size"
 CLUSTERID="--id 0.97"
 
 # cleanup otherwise these will be incorprated due to >>
-${a%/*}
-
 
 rm -f $TMP/*
 rm -f $LOGDIR/*
@@ -44,7 +42,6 @@ rm -f *.uc
 rm -f *.fasta
 rm -f *.stats
 rm -f *.txt
-rm -f *.log
 rm -f all*
 
 # directory for read stats
@@ -71,9 +68,9 @@ date
 #fi
 #
 ## extract reads if required and copy to tmp for processing
-echo
-
-echo "Moving reads to tmp and unzipping if required"
+#echo
+#
+#echo "Moving reads to tmp and unzipping if required"
 
 for f in $RAW_READS/*
 do

@@ -8,7 +8,7 @@ die "Three arguments needed: fasta1, uc, and fasta2\n" unless scalar @ARGV > 2;
 my ($fasta1, $uc, $fasta2) = @ARGV;
 
 # read fasta2 file with accepted sequences                                      
-
+# initiate dictionary with NAug13S152 as key and 1 as value
 my %accepted = ();
 
 open(F2, $fasta2);
@@ -20,7 +20,6 @@ while (<F2>)
     }
 }
 close F2;
-
 # read uc file with mapping                                                     
 
 open(UC, $uc);
